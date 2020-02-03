@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function check(){
+          var pass1="test1"
+          var pass2="test2"
+          if (document.getElementById("pw").value == pass1){
+              window.open("https://tivadar-familia.000webhostapp.com")
+          }else if(document.getElementById("pw").value == pass2){
+              window.open("https://google.com")
+          }else{
+              alert("ERROR")
+          }
+      }
+    </script>
+  </head>
+  <body>
+    <form align="center">
+        <input type="text" id="pw">
+        <input type="submit" onclick="check()" value="Belépés">
+    </form>
+  </body>
+</html>
